@@ -1,0 +1,49 @@
+.link {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 55px;
+    background-color: chartreuse;
+    position: relative;
+}
+
+.link p::after,
+.link p::before {
+    content: "A";
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(247, 9, 21);
+    border: 2px solid black;
+    font-size: 85px; 
+}
+
+.apple {
+    font-size: 55px;
+    color: red;
+   
+}
+
+.play {
+    margin-top: 20px;
+    font-size: 55px;
+    color: rgb(3, 250, 3);
+}
+
+.raspberry {
+    margin-top: 20px;
+    font-size: 55px;
+}
+
+.facebook {
+    margin-top: 20px;
+    font-size: 55px;
+    color: rgb(23, 5, 126);
+    
+}
+
+.block {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
